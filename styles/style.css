@@ -157,7 +157,6 @@ flex-direction: column;
 .table__cell{
   display: flex;
   width: 250px;
-  border: solid orangered;
   margin: 60px 0 0 0;
   flex-wrap: wrap;
 }
@@ -173,4 +172,43 @@ flex-direction: column;
   font-size: 18px;
   font-weight: normal;
 }
-
+.feinman{
+  display: flex;
+  position: relative;
+  margin-top: 100px;
+  border: solid gold;
+  height: 790px;
+  flex-direction: column;
+}
+.feynman__img{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 867;
+  height: 637;
+  z-index: 1;
+}
+.feynman__title{
+  text-align: center;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 2;
+  margin: 0 auto 0 auto;
+}
+.feynman__subtitle{
+  margin: 70px auto 0 auto;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 2;
+}
+.feynman__link{
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
