@@ -25,12 +25,7 @@
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
+
 .grid_border{
   border: 1px solid red;
 }
@@ -122,10 +117,10 @@
   min-width: 784px;
 }
 .digits{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .section__title{
@@ -149,6 +144,7 @@ flex-direction: column;
 .table{
   list-style: none;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin:0 auto 100px auto;
   width: 1100px;
@@ -173,10 +169,10 @@ flex-direction: column;
   font-weight: normal;
 }
 .feinman{
+  background-color: #f2f2f2;
   display: flex;
   position: relative;
   margin-top: 100px;
-  border: solid gold;
   height: 790px;
   flex-direction: column;
 }
@@ -211,4 +207,62 @@ flex-direction: column;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+}
+.kaufman{
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.table_theme_dark{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:0 auto 100px auto;
+  width: 1100px;
+  flex-wrap: wrap;
+  color: white;
+}
+.table__heading_theme_dark{
+  margin: 0 0 20px 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  z-index: 1;
+}
+.table__text_theme_dark{
+  margin:0 0 20px 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  z-index: 1;
+}
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  z-index: 1;
+}
+.section__title_theme_dark{
+  color: white;
+  z-index: 1;
+}
+.section__subtitle_theme_dark{
+  color: white;
+  z-index: 1;
+}
+.kaufman__triangle{
+  position: absolute;
+  right: -210px;
+  top: 0;
+  width: 877;
+  height: 877;
+  z-index: 0;
 }
