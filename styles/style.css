@@ -15,20 +15,11 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+}
+.header__link{
+  color: #2f80ed;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-
-.grid_border{
-  border: 1px solid red;
-}
 .logo_key_value{
   height: 32px;
   width: 183px;
@@ -36,6 +27,7 @@
   top: 30px;
   left: 64px;
 }
+
 
 .header__title{
   width: 730px;
@@ -47,6 +39,8 @@
   margin-left:  64px;
   z-index: 2;
 }
+
+
 .header__subtitle{
   position: absolute;
   left: 64px;
@@ -56,6 +50,7 @@
   font-weight: normal;
   line-height: 25px;
 }
+
 .header__square-pic{
   background-color: #2f80ed;
   position: absolute;
@@ -65,6 +60,7 @@
   width: 568px;
 
 }
+
 .header__main-illustration{
   position: absolute;
   bottom: 0;
@@ -73,6 +69,7 @@
   width: 765px;
   z-index: 1;
 }
+
 .description{
   display: flex;
   margin-top: 100px;
@@ -96,6 +93,7 @@
   color: #2f80ed;
   margin: 0;
 }
+
 .two-columns__span-accent{
   display: flex;
   margin: 30px 0 30px 0;
@@ -103,6 +101,7 @@
   line-height: 34px;
   font-weight: bold;
 }
+
 .two-columns__paragraph{
 
   display: flex;
@@ -110,12 +109,15 @@
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
-
+  margin: 0;
 }
+
 .two-columns__main-text{
   width: 80%;
   min-width: 784px;
+  list-style: none;
 }
+
 .digits{
   display: flex;
   justify-content: center;
@@ -132,6 +134,7 @@
   font-size: 60px;
   font-weight: bold;
 }
+
 .section__subtitle{
 
   width: 60%;
@@ -141,6 +144,7 @@
   font-size: 24px;
   font-weight: normal;
 }
+
 .table{
   list-style: none;
   display: flex;
@@ -149,25 +153,30 @@
   margin:0 auto 100px auto;
   width: 1100px;
   flex-wrap: wrap;
+  list-style: none;
 }
+
 .table__cell{
   display: flex;
   width: 250px;
   margin: 60px 0 0 0;
   flex-wrap: wrap;
 }
+
 .table__heading{
   margin: 0 0 20px 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
+
 .table__text{
   margin:0 0 20px 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
+
 .feinman{
   background-color: #f2f2f2;
   display: flex;
@@ -176,14 +185,16 @@
   height: 790px;
   flex-direction: column;
 }
+
 .feynman__img{
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 867;
-  height: 637;
+  width: 867px;
+  height: 637px;
   z-index: 1;
 }
+
 .feynman__title{
   text-align: center;
   width: 648px;
@@ -193,6 +204,7 @@
   z-index: 2;
   margin: 0 auto 0 auto;
 }
+
 .feynman__subtitle{
   margin: 70px auto 0 auto;
   line-height: 51px;
@@ -200,6 +212,7 @@
   font-weight: normal;
   z-index: 2;
 }
+
 .feynman__link{
   position: absolute;
   right: 48px;
@@ -207,7 +220,9 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #2f80ed;
 }
+
 .kaufman{
   background-color: #1f1f1f;
   display: flex;
@@ -217,6 +232,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .table_theme_dark{
   list-style: none;
   display: flex;
@@ -227,6 +243,7 @@
   flex-wrap: wrap;
   color: white;
 }
+
 .table__heading_theme_dark{
   margin: 0 0 20px 0;
   line-height: 1.15;
@@ -235,6 +252,7 @@
   color: white;
   z-index: 1;
 }
+
 .table__text_theme_dark{
   margin:0 0 20px 0;
   line-height: 1.2;
@@ -243,6 +261,7 @@
   color: white;
   z-index: 1;
 }
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -250,27 +269,32 @@
   margin-top: 80px;
   z-index: 1;
 }
+
 .section__title_theme_dark{
   color: white;
   z-index: 1;
 }
+
 .section__subtitle_theme_dark{
   color: white;
   z-index: 1;
 }
+
 .kaufman__triangle{
   position: absolute;
   right: -210px;
   top: 0;
-  width: 877;
-  height: 877;
+  width: 877px;
+  height: 877px;
   z-index: 0;
 }
+
 .footer{
   display: flex;
   min-height: 350px;
   background-color: #1f1f1f;
 }
+
 .footer__columns{
   position: relative;
   display: flex;
@@ -279,13 +303,23 @@
   justify-content: space-between;
   list-style: none;
 }
+
 .footer__column_content_copyright{
   display: flex;
   flex-basis: 711px;
   align-items: flex-start;
 }
+.footer__column-links{
+  list-style: none;
+  margin: 0;
+}
+.footer__column_content_social{
+  list-style: none;
+  margin: 0;
+}
 .logo_place_footer
-{  display: flex;
+{
+  display: flex;
 }
 .footer__author{
   margin: 18px 0 18px 0;
@@ -297,18 +331,32 @@
   font-size: 18px;
   font-weight: normal;
 }
+
 .footer__column-heading{
+  color: white;
   margin: 0 0 20px 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
 }
+
 .footer__social-icon{
-  margin: 0 10px 0 0;
-}
-.footer__column-link{
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   margin: 0 0 16px 0;
+  color: white;
 }
+
+.footer__column-links{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.footer__column-link{
+  margin: 0 0 16px 0;
+  color: white;
+}
+
