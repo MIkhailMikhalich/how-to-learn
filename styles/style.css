@@ -385,10 +385,6 @@
   color: white;
   text-decoration: none;
 }
-.footer__social-icon :hover{
-  outline: auto gray;
-  background: #80808069;
-}
 
 .footer__column-link{
   margin: 0 0 auto 0;
