@@ -5,71 +5,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
+
 </head>
 
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo_key_value">
-        <img src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум.">
-      </div>
+
+      <img class="logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум.">
+
       <h1 class="header__title">Научится учится</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
         жизни ?
         <a class="header__link" href="#">Узнать&rarr;</a>
       </p>
-      <div>
-        <img class="header__main-illustration" src="./images/header-image.png" alt="Картина Опять двойка.">
-      </div>
+      <img class="header__main-illustration" src="./images/header-image.png" alt="Картина Опять двойка.">
       <div class="header__square-pic">
       </div>
     </header>
     <main class="content">
       <section class="description">
         <div class="two-columns">
-          <div class="two-columns__brief">
-            <h1 class="two-columns__brief">Главные проблемы в обучении</h1>
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">
+              Ни в школе, ни в институте нас не учат тому,как правильно изучать
+              материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы
+              лучше
+              сдать тест, но часть в итоге это не дает нам реального знания.Зубежка быстро выветривается и не
+              приносит
+              пользы.
+            </p>
+            <p class="two-columns__paragraph">
+              <span class="two-columns__span-accent">Вывод:</span>
+              <a class="two-columns__paragraph">учится тоже ножно уметь, но почему-то этому мало где учат. Что с
+                этим делать ?
+              </a>
+            </p>
+            <p class="two-columns__paragraph">
+              Конкретные техники и упражнения помогают изменить подход к обучению,
+              сделать его эффективным и захватывающим. Эти же техники применятся на примере обучения в Практикуме.
+            </p>
           </div>
-          <ul class="two-columns__main-text">
-            <li class="two-columns__paragraph">
-              <p class="two-columns__paragraph">
-                <a>Ни в школе, ни в институте нас не учат тому,как правильно изучать
-                  материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы
-                  лучше
-                  сдать тест, но часть в итоге это не дает нам реального знания.Зубежка быстро выветривается и не
-                  приносит
-                  пользы.
-                </a>
-              </p>
-            </li>
-            <li>
-              <p>
-                <span class="two-columns__span-accent">Вывод:
-                  <a class="two-columns__paragraph">учится тоже ножно уметь, но почему-то этому мало где учат. Что с
-                    этим делать ?
-                  </a>
-                </span>
-              </p>
-            </li>
-            <li class="two-columns__paragraph">
-              <p class="two-columns__paragraph">
-                <a>Конкретные техники и упражнения помогают изменить подход к обучению,
-                  сделать его эффективным и захватывающим. Эти же техники применятся на примере обучения в Практикуме.
-                </a>
-              </p>
-            </li>
-          </ul>
         </div>
       </section>
 
       <section class="digits">
-        <h1 class="section__title">Цифры и факты</h1>
-        <h2 class="section__subtitle">Про учебу и мозг</h2>
+        <p class="digits__title">Цифры и факты</p>
+        <p class="digits__subtitle">Про учебу и мозг</p>
         <ul class="table">
           <li class="table__cell">
-            <h1 class="table__heading">86 миллиардов</h1>
+            <p class="table__heading">86 миллиардов</p>
             <p class="table__text">Число нейронов в мозге человека</p>
           </li>
           <li class="table__cell">
@@ -108,16 +96,16 @@
       <section class="feinman">
         <h1 class="feynman__title">Метод Фейнмана</h1>
         <h2 class="feynman__subtitle">Выучить и не забыть</h2>
-        <p class="feynman__link">
+        <div class="feynman__link">
           <a class="feynman__link" href="#">Подробнее&rarr;
           </a>
-        </p>
+        </div>
         <img class="feynman__img" src="./images/feynman.png" alt="Сам Фейнман.">
       </section>
 
       <section class="kaufman">
-        <h1 class="section__title section__title_theme_dark">Принципы обучения</h1>
-        <h2 class="section__subtitle section__subtitle_theme_dark">от Джоша Кауфмана</h2>
+        <h1 class="kaufman__title kaufman__title_theme_dark">Принципы обучения</h1>
+        <h2 class="kaufman__subtitle kaufman__subtitle_theme_dark">от Джоша Кауфмана</h2>
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h1 class="table__heading table__heading_theme_dark">1</h1>
@@ -166,62 +154,63 @@
     </main>
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column_content_copyright">
+        <div class="footer__column footer__column_content_copyright">
           <img class="logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекс Практикум.">
           <p class="footer__author">&copy; 2019. Шоленинов Михаил</p>
         </div>
-        <div class="footer__column_content_info">
-          <ul class="footer__column-links">
+        <div class="footer__column footer__column_content_info">
+          <nav class="footer__column footer__column-links">
+            <h1 class="footer__column footer__column-heading">О Практикуме</h1>
             <li>
-              <p class="footer__column-heading">О Практикуме</p>
-            </li>
-            <li>
-              <p class="footer__column-link">
-                <a class="footer__column-link" href="#">Главная
+              <div class="footer__column footer__column-link">
+                <a class="footer__column footer__column-link" href="#">Главная
                 </a>
-              </p>
+              </div>
             </li>
             <li>
-              <p class="footer__column-link">
-                <a class="footer__column-link" href="#">Концепция
+              <div class="footer__column footer__column-link">
+                <a class="footer__column footer__column-link" href="#">Концепция
                 </a>
-              </p>
+              </div>
             </li>
             <li>
-              <p class="footer__column-link">
-                <a class="footer__column-link" href="#">Наставники
+              <div class="footer__column footer__column-link">
+                <a  class="footer__column footer__column-link" href="#">Наставники
                 </a>
-              </p>
+              </div>
             </li>
-          </ul>
+          </nav>
         </div>
-        <ul class="footer__column_content_social">
+        <nav class="footer__column footer__column_content_social">
           <li>
-            <p class="footer__column-heading">Соцсети
-            </p>
+            <h1 class="footer__column footer__column-heading">Соцсети
+            </h1>
           </li>
           <li>
-            <p class="footer__social-icon">
-              <a class="footer__social-icon" href="#">
-                <img src="./images/facebook_color_white.svg" alt="Логотип Facebook.">Facebook
+            <div class="footer__column footer__column-link">
+              <a class="footer__column footer__column-link" href="#">
+                <img class="footer__column footer__social-icon" src="./images/facebook_color_white.svg"
+                  alt="Логотип Facebook.">Facebook
               </a>
-            </p>
+            </div>
           </li>
           <li>
-            <p class="footer__social-icon">
-              <a class="footer__social-icon" href="#">
-                <img src="./images/vk_color_white.svg" alt="Логотип ВКонтакте.">ВКонтакте
+            <div class="footer__column footer__column-link">
+              <a class="footer__column footer__column-link" href="#">
+                <img class="footer__column footer__social-icon" src="./images/vk_color_white.svg"
+                  alt="Логотип ВКонтакте.">ВКонтакте
               </a>
-            </p>
+            </div>
           </li>
           <li>
-            <p class="footer__social-icon">
-              <a class="footer__social-icon" href="#">
-                <img src="./images/instagram_color_white.svg" alt="Логотип Instagram.">Instagram
+            <div class="footer__column footer__column-link">
+              <a class="footer__column footer__column-link" href="#">
+                <img class="footer__column footer__social-icon" src="./images/instagram_color_white.svg"
+                  alt="Логотип Instagram.">Instagram
               </a>
-            </p>
+            </div>
           </li>
-        </ul>
+        </nav>
       </div>
     </footer>
   </div>
