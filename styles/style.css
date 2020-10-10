@@ -231,7 +231,7 @@
   text-decoration: none;
 }
 
-.feynman__link :hover{
+.feynman__link:hover{
   outline: auto #2f80ed;
   background: #2f80ed5a;
 }
@@ -384,7 +384,7 @@
   font-size: 18px;
   font-weight: normal;
 }
-.footer__column-link :hover{
+.footer__column-link:hover{
   outline: auto gray;
   background: #80808069;
 }
