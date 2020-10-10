@@ -182,7 +182,9 @@
   font-size: 18px;
   font-weight: normal;
 }
-
+.table__text:last-child{
+  margin: 0;
+}
 .feinman{
   background-color: #f2f2f2;
   display: flex;
@@ -200,6 +202,7 @@
   width: 867px;
   height: 637px;
   z-index: 1;
+  box-sizing: content-box;
 }
 
 .feynman__title{
@@ -334,6 +337,7 @@
   color: white;
   text-decoration: none;
   padding: 0;
+  margin-bottom: 16px;
 }
 
 .logo_place_footer
