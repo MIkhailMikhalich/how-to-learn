@@ -1,0 +1,11 @@
+
+.table_theme_dark{
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:0 auto 90px auto;
+  width: 1100px;
+  flex-wrap: wrap;
+  color: white;
+}
+

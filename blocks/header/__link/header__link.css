@@ -1,0 +1,9 @@
+.header__link{
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__link:hover{
+  outline: auto #2f80ed;
+  background: #2f80ed5a;
+}

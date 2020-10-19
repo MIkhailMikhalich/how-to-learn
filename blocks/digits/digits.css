@@ -1,0 +1,11 @@
+@import url(./__subtitle/digits__subtitle.css);
+@import url(./__title/digits__title.css);
+
+.digits{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+

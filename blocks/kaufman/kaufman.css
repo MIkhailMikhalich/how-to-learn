@@ -1,0 +1,14 @@
+@import url(./__subtitle/kaufman__subtitle.css);
+@import url(./__title/kaufman__title.css);
+@import url(./__triangle/kaufman__triangle.css);
+.kaufman{
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+

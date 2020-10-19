@@ -1,0 +1,15 @@
+.footer__social-icon{
+  background-size: 16px 16px;
+  height: 16px;
+  width: 16px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 10px auto 0;
+  color: white;
+  text-decoration: none;
+}
+.footer__column-link:hover{
+  outline: auto gray;
+  background: #80808069;
+}
