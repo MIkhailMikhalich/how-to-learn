@@ -6,6 +6,7 @@
   line-height: 42px;
   color:  #2f80ed;
   object-position: top;
+  text-decoration: none;
 }
 .khan__buy-link:hover{
   outline: auto #2f80ed;

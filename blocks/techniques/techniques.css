@@ -1,0 +1,9 @@
+@import url(./__subtitle/techniques__subtitle.css);
+@import url(./__title/techniques__title.css);
+
+
+.techniques
+{
+  width: 80%;
+  margin: auto;
+}
