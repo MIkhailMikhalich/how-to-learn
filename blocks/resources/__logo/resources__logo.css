@@ -1,7 +1,16 @@
 .resources__logo
 {
   display: flex;
+  padding: 0;
   margin: 0;
   height: 38px;
   width: 270px;
+}
+.resources__logo:hover
+{
+  border: dashed gray;
+  opacity: .3;
+  border-radius: 40px;
+  transition: opacity 0.3s ease-in-out 0.01ms;
+  transition: border 0.3s ease-in-out 0.01ms;
 }

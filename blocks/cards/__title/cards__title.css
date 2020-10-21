@@ -1,7 +1,9 @@
 .cards__title
 {
+  padding: 0;
   margin:0 0 16px 0;
   line-height: 1.15;
   font-size: 24px;
+  padding: 0;
   font-weight: bold;
 }

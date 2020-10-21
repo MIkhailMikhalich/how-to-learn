@@ -4,13 +4,14 @@
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
+  padding: 0;
   font-weight: normal;
 }
 .footer__column-link:hover{
-  background-color: #80808069;
-  opacity: 60%;
-  border-radius: 40px;
+
   border: dashed white;
-  transition: background-color 0.3s ease-in-out 0.01ms;
+  opacity: .3;
+  border-radius: 40px;
+  transition: opacity 0.3s ease-in-out 0.01ms;
   transition: border 0.3s ease-in-out 0.01ms;
 }

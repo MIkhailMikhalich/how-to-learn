@@ -6,4 +6,6 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
+  padding: 0;
+  z-index: 2;
 }

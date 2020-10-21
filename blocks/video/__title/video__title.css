@@ -1,8 +1,6 @@
 
 .video__title
 {
+  padding: 0;
   margin: 100px auto 20px auto;
-  font-size: 60px;
-  font-weight: bold;
-  line-height: 1.15;
 }
