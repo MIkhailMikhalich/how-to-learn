@@ -15,7 +15,7 @@
   background-color: #2f80ed5a;
   border: dashed #2f80ed;
   opacity: 60%;
-  border-radius: 40px ;
+  border-radius: 40px;
   transition: background-color 0.3s ease-in-out 0.01ms;
   transition: border 0.3s ease-in-out 0.01ms;
 }
