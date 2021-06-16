@@ -6,3 +6,5 @@
 2. Анимации
 3. ifram'ы
 4. Методология БЭМ для создания классов и файловой системы
+ Ссылка на сайит https://mikhailmikhalich.github.io/how-to-learn/
+ 
